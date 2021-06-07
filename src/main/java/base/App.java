@@ -21,6 +21,7 @@ public class App
         Scanner rateIn = new Scanner(System.in);
         Scanner yearsIn = new Scanner(System.in);
         DecimalFormat dF = new DecimalFormat();
+        dF.setGroupingUsed(false);
 
         System.out.print("Enter the principal: ");
         principle = prinIn.nextFloat();
